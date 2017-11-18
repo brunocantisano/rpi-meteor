@@ -42,7 +42,7 @@ Environment variables
 
 2) If you'd like to be able to access the instance directly at standard port on the host machine:
 ```bash
-    docker run --name meteor -p 9413:3000 --env ROOT_URL=http://localhost:3000/ --env MONGO_URL=mongodb://localhost:27017/meteor -d meteor
+    docker run --name meteor -p 9415:3000 --env ROOT_URL=http://localhost:3000/ --env MONGO_URL=mongodb://localhost:27017/meteor -d meteor
 ```
 ----
 
